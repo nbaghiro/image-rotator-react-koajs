@@ -1,0 +1,71 @@
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.App-content {
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  width: 35%;
+  padding: 50px;
+}
+
+.right {
+  width: 65%;
+  padding: 50px;  
+}
+
+.right-up {
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+}
+
+.right-down {
+  height: 10%;
+  text-align: right;
+  padding-right: 50px;
+  padding-top: 25px;
+}
+
+.right-up-left, .right-up-right {
+  width: 50%;
+}
+
+.imgUploadContainer {
+  width: 300px;
+  height: 350px;
+}
+
+.imgHolder {
+  width: 300px;
+  height: 300px;
+}
+
+.theImage {
+  width: 250px;
+  height: 250px;
+}

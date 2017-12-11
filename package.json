@@ -1,0 +1,26 @@
+{
+  "name": "image-rotator-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "koa": "^2.4.1",
+    "koa-request": "^1.0.0",
+    "react": "^16.2.0",
+    "react-bootstrap": "^0.31.5",
+    "react-dom": "^16.2.0",
+    "react-file-reader": "^1.1.3",
+    "react-scripts": "1.0.17",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "file-loader": "^1.1.5",
+    "url-loader": "^0.6.2"
+  }
+}
